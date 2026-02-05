@@ -41,6 +41,13 @@ pixi run configure-debug -DCMAKE_GENERATOR_PLATFORM= -DCMAKE_GENERATOR_TOOLSET=
 pixi run freecad-debug  # Uses .pixi/envs/default/Library/bin/FreeCAD.exe
 ```
 
+The `ninja` build files reside in `../FreeCAD-local-ninja-msvc-reldebinfo`
+
+```bash
+# Build Documentation with Doxygen
+ninja DevDoc
+```
+
 ## Code Style & Formatting
 
 ### C++
